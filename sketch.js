@@ -384,6 +384,7 @@ function reset(){
     score3=0
     score5=0
     score7=0
+    bg.velocityX=-2
     gamestate="ALIVE"
 }
 //commit changes
