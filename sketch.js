@@ -387,4 +387,4 @@ function reset(){
     bg.velocityX=-2
     gamestate="ALIVE"
 }
-//commit changes
+//commit changess
