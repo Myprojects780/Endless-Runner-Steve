@@ -364,6 +364,7 @@ function obstacles2(){
     }
     obstaclesGrp2.add(obstacleBlock2)
 }}
+//commit changes
 function reset(){
     zombie.velocityX=0
     zombie.x=height/10
