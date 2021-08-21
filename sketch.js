@@ -53,7 +53,7 @@ function setup() {
 createCanvas(windowWidth,windowHeight)
 bg=createSprite(width/2,height/2)
 bg.addAnimation("background",bgImg)
-bg.scale=2
+bg.scale=.7
 bg.velocityX=-2
 frameRate(45)
 canJump=true
@@ -77,7 +77,7 @@ score8.scale=0.2
 invisblockgrp=createGroup()
 ground=createSprite(width/2,height-30)
 ground.addAnimation("moving",groundImg)
-ground.scale=1.3
+ground.scale=1.9
 obstaclesGrp=createGroup()
 phantomGrp=createGroup()
 cloudGrp=createGroup()
