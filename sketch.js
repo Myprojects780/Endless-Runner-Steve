@@ -53,7 +53,7 @@ function setup() {
 createCanvas(windowWidth,windowHeight)
 bg=createSprite(width/2,height/2)
 bg.addAnimation("background",bgImg)
-bg.scale=2.7
+bg.scale=4
 bg.velocityX=-2
 frameRate(45)
 canJump=true
