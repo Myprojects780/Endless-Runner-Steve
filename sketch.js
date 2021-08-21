@@ -53,7 +53,7 @@ function setup() {
 createCanvas(windowWidth,windowHeight)
 bg=createSprite(width/2,height/2)
 bg.addAnimation("background",bgImg)
-bg.scale=4
+bg.scale=3
 bg.velocityX=-2
 frameRate(45)
 canJump=true
@@ -85,10 +85,10 @@ invisground=createSprite(width/2,height-75,width,20)
 invisground.visible=false
 zombie=createSprite(width/10,height-170)   
 zombie.addAnimation("running",zombierunning)
-zombie.scale=0.55
+zombie.scale=1.1
 steve=createSprite(width/10+200,height-180)   
 steve.addAnimation("running",steverunning)
-steve.scale=0.55
+steve.scale=1.1
 steve.debug=false
 music.play()
 gamestate="ALIVE" 
